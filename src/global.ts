@@ -1,6 +1,6 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
-const EstiloGlobal = createGlobalStyle`
+export const EstiloGlobal = createGlobalStyle`
   :root {
   --cor-principal: #a7727d;
   --cor-secundaria: #f9f5e7;
@@ -18,8 +18,6 @@ body {
   padding-bottom: 120px;
 }
 `
-
-export default EstiloGlobal
 
 export const Container = styled.div`
   max-width: 1024px;
