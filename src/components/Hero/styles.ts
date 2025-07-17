@@ -34,6 +34,7 @@ export const Container = styled.div`
 export const TitleHero = styled.h2`
   font-family: Gloock, serif;
   font-size: 48px;
+  text-align: center;
 
   @media (max-width: 768px) {
     font-size: 32px;
